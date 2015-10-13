@@ -12,7 +12,7 @@
     <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <ListView fx:id="lvPeople" layoutX="112.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" />
       <TextField fx:id="tfFirstName" layoutX="25.0" layoutY="296.0" />
-      <TextField fx:id="fxLastName" layoutX="195.0" layoutY="296.0" />
+      <TextField fx:id="tfLastName" layoutX="195.0" layoutY="296.0" />
       <Label layoutX="25.0" layoutY="270.0" text="First Name" />
       <Label layoutX="198.0" layoutY="270.0" text="Last Name" />
       <Button fx:id="btnAddPerson" layoutX="25.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#handleBtnAddPersonClicked" text="Add Person" />
