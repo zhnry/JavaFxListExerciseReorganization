@@ -48,6 +48,8 @@ public class FXMLDocumentController implements Initializable {
 
   @FXML
   private void handleBtnAddPersonClicked(MouseEvent event) {
+    System.out.println("First name" + tfFirstName.getText());
+    System.out.println("Last name" + tfLastName.getText());
   }
   
 }
