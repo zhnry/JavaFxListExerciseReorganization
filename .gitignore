@@ -13,3 +13,4 @@ hs_err_pid*
 /PopulateList/nbproject/private/
 /PopulateList/build/
 /PopulateList/dist/
+!/PopulateList/jars/sqljdbc42.jar
