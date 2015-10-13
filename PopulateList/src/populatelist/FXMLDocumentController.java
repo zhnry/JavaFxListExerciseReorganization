@@ -10,7 +10,11 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 
 /**
  *
@@ -20,6 +24,16 @@ public class FXMLDocumentController implements Initializable {
   
   @FXML
   private Label label;
+  @FXML
+  private Button button;
+  @FXML
+  private ListView<?> lvPeople;
+  @FXML
+  private TextField tfFirstName;
+  @FXML
+  private TextField fxLastName;
+  @FXML
+  private Button btnAddPerson;
   
   @FXML
   private void handleButtonAction(ActionEvent event) {
@@ -31,5 +45,9 @@ public class FXMLDocumentController implements Initializable {
   public void initialize(URL url, ResourceBundle rb) {
     // TODO
   }  
+
+  @FXML
+  private void handleBtnAddPersonClicked(MouseEvent event) {
+  }
   
 }
