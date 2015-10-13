@@ -31,7 +31,7 @@ public class FXMLDocumentController implements Initializable {
   @FXML
   private TextField tfFirstName;
   @FXML
-  private TextField fxLastName;
+  private TextField tfLastName;
   @FXML
   private Button btnAddPerson;
   
