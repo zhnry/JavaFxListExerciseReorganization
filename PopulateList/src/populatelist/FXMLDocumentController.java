@@ -5,6 +5,8 @@
  */
 package populatelist;
 
+import model.Person;
+import jpa.controller.PersonJpaController;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
